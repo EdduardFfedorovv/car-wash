@@ -1,0 +1,336 @@
+@media(max-width:1450px){
+    .header__content-inner{
+        display: block;
+      
+    }
+    .header{
+        margin-bottom: 100px;
+    }
+    .header__img{
+        width: 100%;
+        position: static;
+    }
+    .header__title{
+        padding: 0;
+        margin-bottom: 30px;
+        &::after{
+            display: none;
+        }
+    }
+    .header__content-text{
+        margin-top: 15px;
+    }
+    .header__arrov{
+        display: block;
+    }
+    
+    .popup__box{
+        max-width: 100%;
+        text-align: center;
+    }
+    .header__img{
+        padding-top: 30px;
+    }
+    .header__img2{
+        display: none;
+    }
+    .start__inner{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .start__img{
+        margin: 0 auto;
+    }
+}
+@media(max-width:1200px){
+
+    .header__img2{
+        display: none;
+    }
+    .partner__inner{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width:1100px){
+    .header__img2{
+        display: none;
+    }
+    .apps{
+        padding-top: 0;
+    }
+    .apps__inner{
+       text-align: center;
+        &::before{
+            content: "";
+            display: none;
+        }
+    }
+    .apps__title{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0 10px;
+        padding-top: 40px;
+    }
+    .apps__img-adoptiv{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .apps__text{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0 10px;
+        
+    }
+    .apps__btn-1{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .apps__btn-2{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media(max-width:950px){
+
+    .btn-box{
+        display: none;
+    }
+    .menu{
+        order: 1;
+    }
+    .menu__list{
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 104px;
+        text-align: center;
+        background-color: #fff;
+        transform: translateY(-500px);
+        transition: all .5s;
+
+    }
+    .menu__list.menu__list--active{
+        transform: translateY(0);
+    }
+    .menu__link{
+        margin-bottom: 30px;
+        border-bottom: 1px solid #E9ECF5;
+ 
+    }
+    .menu__btn{
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+        border-top: 3px solid #72727E;
+        border-bottom: 3px solid #72727E;
+        cursor: pointer;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 3px;
+            background-color: #72727E;
+            top: 11px;
+            left: 0;
+        }
+    }
+    .header__img2{
+        display: none;
+    }
+    .reviews__title{
+        text-align: center;
+
+    }
+    .slider__inner-text{
+        text-align: center;
+        max-width: 100%;
+    }
+    .slider__box{
+        display: block;
+        & img{
+            margin: 0 auto;
+            margin-bottom: 12px;
+        }
+    }
+    .slider__box-text{
+        margin: 0 auto;
+        
+    }
+    .slider__line{
+        display: none;
+    }
+    .slick-arrow.slick-prev{
+        top: 186px;
+        left: 125px;
+    }
+    .slick-arrow.slick-next{
+        right: 129px;
+        top: 186px;
+    }
+    .footer{
+        padding-bottom: 60px;
+    }
+    .footer__inner{
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+    .footer__menu-list{
+        display: block;
+    }
+    .footer__logo-img{
+        margin-bottom: 19px;
+        margin-top: 60px;
+    }
+    .footer__menu-link{
+        margin-bottom: 20px;
+    }
+    .footer__btn-box{
+        margin-top: 40px;
+    }
+}
+@media(max-width:890px){
+    
+}
+@media(max-width:840px){
+
+    .header__title{
+        font-size: 32px;
+    }
+    .header__img2{
+        display: none;
+    }
+    .header__content-inner{
+        margin-top: 50px;
+    }
+    
+}
+
+@media(max-width:700px){
+
+    .header__title{
+        font-size: 28px;
+    }
+    .header__img2{
+        display: none;
+    }
+    .start__title{
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }
+    .start__item-title{
+        margin-top: 10px;
+    }
+    .start__item{
+        display: block;
+    }
+
+}
+
+@media(max-width:610px){
+    .header__img{
+        display: none;
+    }
+    .header__img2{
+        display: block;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .header__title{
+        font-size: 21px;
+        line-height: 33px;
+    }
+    .popup-input{
+        padding: 21px 75px 20px 20px;
+    }
+    .start__img{
+        display: none;
+    }
+    .start__img-spacial{
+        display: block;
+        width: 100%;
+    }
+    .item-4{
+        margin-bottom: 0;
+    }
+}
+@media(max-width:500px){
+    .slick-arrow.slick-prev{
+        top: 360px;
+        left: 121px;
+    }
+    .slick-arrow.slick-next{
+        right: 129px;
+        top: 360px;
+    }
+}
+@media(max-width:480px){
+    .partner__title{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .partner__text{
+        margin-bottom: 30px;
+    }
+    .apps__title{
+        font-size: 25px;
+    }
+    .apps__text{
+        font-size: 14px;
+    }
+    .slick-arrow.slick-prev{
+        top: 390px;
+        left: 116px;
+    }
+    .slick-arrow.slick-next{
+        top: 390px;
+    }
+}
+@media(max-width:430px){
+    .slick-arrow.slick-prev{
+        top: 420px;
+        left: 100px;
+    }
+    .slick-arrow.slick-next{
+        top: 420px;
+        right: 110px;
+    }
+}
+@media(max-width:390px){
+    .slick-arrow.slick-prev{
+        top: 420px;
+        left: 30px;
+    }
+    .slick-arrow.slick-next{
+        top: 420px;
+        right: 50px;
+    }
+}
+@media(max-width:360px){
+    .popup-input{
+        padding: 21px 65px 20px 20px;
+    }
+    .white-popup-block h1{
+        font-size: 21px;
+    }
+    .apps__title{
+        font-size: 20px;
+    }
+    
+    .slick-arrow.slick-prev{
+        top: 485px;
+        left: 30px;
+    }
+    .slick-arrow.slick-next{
+        top: 485px;
+        right: 50px;
+    }
+}
