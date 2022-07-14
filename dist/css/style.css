@@ -904,7 +904,7 @@ img.mfp-img {
 }
 
 .header {
-  margin-bottom: 360px;
+  margin-bottom: 200px;
 }
 
 .header .container {
@@ -934,7 +934,6 @@ img.mfp-img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 110px;
-  margin-top: 100px;
 }
 
 .header__title {
@@ -1387,6 +1386,7 @@ label {
   .header__title {
     padding: 0;
     margin-bottom: 30px;
+    margin-top: 50px;
   }
 
   .header__title::after {
